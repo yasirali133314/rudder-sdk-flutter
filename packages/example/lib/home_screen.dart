@@ -41,7 +41,7 @@ class HomeScreenState extends State<HomeScreen> {
   }
 
   void __initialize() {
-    RudderDBEncryption dbEncryption = RudderDBEncryption(true, "password");
+    RudderDBEncryption dbEncryption = RudderDBEncryption(false, "password");
     MobileConfig mc = MobileConfig(
         autoCollectAdvertId: false,
         sessionTimeoutInMillis: 6000,
