@@ -22,6 +22,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace "com.rudderstack.sdk.flutter.integrations.rudder_integration_appsflyer_flutter"
     compileSdkVersion 31
 
     compileOptions {
